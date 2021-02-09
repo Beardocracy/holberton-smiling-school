@@ -19,11 +19,14 @@ body, html {
 
 .header-hero-bg {
     background-image: url("images/pic_1.jpg");
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.special-bg {
     background-color: var(--color-black);
+    height: 100%;
 }
 
 .nav-item {
@@ -44,9 +47,15 @@ body, html {
     font-size: 1rem;
 }
 
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     .h1-hero-sm {
         font-size: 61px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .h1-hero-sm {
+        font-size: 85px;
     }
 }
 
@@ -63,12 +72,16 @@ body, html {
     color: var(--color-primary);
     font-weight: 700;
 }
+/*
+.list-group {
+    align-items: center;
+}
+*/
 
-.card {
+.list-group-item {
     background-color: transparent;
-    max-width: 150px;
+    width: 150px;
     border: none;
-    border-color: white;
     align-items: center;
 }
 
@@ -76,4 +89,12 @@ body, html {
     font-weight: 900;
     font-size: 18px;
     width: 100%;
+}
+
+.special-height {
+    min-height: 1000px;
+}
+
+.special-bg {
+    background-color: var(--color-black);
 }
