@@ -6,6 +6,8 @@
         <title>SmileSchool - Homepage</title>
         <meta name="description" content="Homepage for SmileSchool">
         
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
         
@@ -19,29 +21,75 @@
     <body>
         <header>
             <div class="header-hero-bg">
-                <nav class="navbar navbar-expand-sm d-flex">
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon text-light">HI</span>
-                    </button>
-                    <div class="navbar-brand d-flex flex-column flex-sm-row mx-auto">
-                        <a class="mx-auto mr-sm-2">
-                            <img src="images/smile_off.png" alt="SmileSchool logo" width="30px">
-                        </a>
-                        <a>
-                            <img src="images/logo.png" alt="SmileSchool text logo" width="114px">
-                        </a>
+                <div class="container-fluid">
+                    <!-- Nav Bar -->
+                    <nav class="navbar navbar-expand-sm d-flex">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon text-light">HI</span>
+                        </button>
+                        <div class="navbar-brand d-flex flex-column flex-sm-row mx-auto">
+                            <a class="mx-auto mr-sm-2">
+                                <img src="images/smile_off.png" alt="SmileSchool logo" width="30px">
+                            </a>
+                            <a>
+                                <img src="images/logo.png" alt="SmileSchool text logo" width="114px">
+                            </a>
+                        </div>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon text-light"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                            <div class="navbar-nav align-items-center justify-content-sm-between">
+                                <a class="nav-item nav-link text-light" href="#">COURSES</a>
+                                <a class="nav-item nav-link text-light ml-sm-4" href="#">PRICING</a>
+                                <a class="nav-item nav-link text-light ml-sm-4" href="#">LOGIN</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- Hero -->
+                    <div class="d-flex flex-column align-items-center text-light">
+                        <h1 class="h1-hero h1-hero-sm">Get schooled</h1>
+                        <div class="d-flex row">
+                            <div class="h2-hero">SMILES</div>
+                            <div class="h2-hero ml-5">GRIN</div>   
+                            <div class="h2-hero ml-5">LAUGH</div>   
+                        </div>
+                        <button class="btn btn-primary mt-4">REGISTER FOR FREE</button>
+                        <h3 class="h3-multi h3-multi-hero"><span class="emphasis">Learn</span> from the pros</h3>
                     </div>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon text-light"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav align-items-center">
-                            <a class="nav-item nav-link text-light" href="#">COURSES</a>
-                            <a class="nav-item nav-link text-light" href="#">PRICING</a>
-                            <a class="nav-item nav-link text-light" href="#">LOGIN</a>
+                    <div class="container-fluid my-5">
+                        <div class="card-deck justify-content-between text-light">
+                            <div class="card">
+                                <img class="rounded-circle" src="images/profile_1.jpg" alt="Philip Massey headshot" width="150px" height="150px">
+                                <div class="card-body px-0 text-center">
+                                    <h5 class="card-title">Phillip Massey</h5>
+                                    <p>« Smile of the year » 2018 - 2019</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="rounded-circle" src="images/profile_2.jpg" alt="Philip Massey headshot" width="150px" height="150px">
+                                <div class="card-body px-0 text-center">
+                                    <h5 class="card-title">Nannie Lawrence</h5>
+                                    <p>Best « little smile » 2017</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="rounded-circle" src="images/profile_3.jpg" alt="Philip Massey headshot" width="150px" height="150px">
+                                <div class="card-body px-0 text-center">
+                                    <h5 class="card-title">Bruce Walters</h5>
+                                    <p>Best « Friend Smile » live performance 2019</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img class="rounded-circle" src="images/profile_4.jpg" alt="Philip Massey headshot" width="150px" height="150px">
+                                <div class="card-body px-0 text-center">
+                                    <h5 class="card-title">Henry Hughes</h5>
+                                    <p>« 24h smiles » winner 2016 - 2019</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </nav>
+                </div>
             </div>
         </header>        
     </body>
