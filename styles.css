@@ -168,3 +168,90 @@ a.text-light:hover {
     border-color: var(--color-primary);
     opacity: 0.9;
 }
+
+.carousel-inner {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.carousel-p,
+.carousel-title {
+    font-size: 22px;
+}
+
+.carousel-title {
+    font-weight: 700;
+}
+
+.carousel-img-circle {
+    margin-top: 91px;
+    margin-bottom: 24px;
+}
+
+.carousel-img-circle .rounded-circle {
+    width: 148px;
+    height: 148px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .carousel-img-circle {
+        margin-top: 91px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .carousel-img-circle {
+        margin-top: 114px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .carousel-inner,
+    .carousel-text {
+        min-height: 392px;
+    }
+    .carousel-content {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .carousel-img-circle {
+        margin-top: 108px;
+    }
+    .carousel-img-circle .rounded-circle {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+/* Carousel Icons */
+.carousel-control-next-icon {
+    background-image: url(images/arrow_white_right.png)!important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(images/arrow_white_left.png)!important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    height: 63px;
+    width: 29px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    align-items: unset;
+    padding-top: 157px;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-control-next,
+    .carousel-control-prev {
+        align-items: unset;
+        padding-top: 133px;
+    }
+}
+
