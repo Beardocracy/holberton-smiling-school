@@ -8,6 +8,7 @@
 :root {
     --color-primary: #C271FF;
     --color-black: #071629;
+    --color-darkblue: #071629;
 }
 
 /* Holberton Fonts */
@@ -41,6 +42,22 @@
 body, html {
     height: 100%;
     font-family: "Source Sans Pro";
+}
+
+.bg-primary {
+    background-color: var(--color-primary)!important;
+}
+
+.text-primary {
+    color: var(--color-primary)!important;
+}
+
+.text-darkblue {
+    color: var(--color-darkblue)!important;
+}
+
+.text-darkblue-subdued {
+    color: rgba(7, 22, 41, 0.501584);
 }
 
 /* Header Hero Backgrounds */
@@ -117,6 +134,11 @@ a.text-light:hover {
     margin-top: 168px;
 }
 
+.h3-multi-popular {
+    margin-top: 87px;
+    margin-bottom: 75px;
+}
+
 .h3-multi .emphasis {
     color: var(--color-primary);
     font-weight: 700;
@@ -167,11 +189,6 @@ a.text-light:hover {
     background-color: var(--color-primary);
     border-color: var(--color-primary);
     opacity: 0.9;
-}
-
-.carousel-inner {
-    background-color: var(--color-primary);
-    color: white;
 }
 
 .carousel-p,
@@ -227,12 +244,20 @@ a.text-light:hover {
 }
 
 /* Carousel Icons */
-.carousel-control-next-icon {
+.white-icon-prev {
+    background-image: url(images/arrow_white_left.png)!important;
+}
+
+.white-icon-next {
     background-image: url(images/arrow_white_right.png)!important;
 }
 
-.carousel-control-prev-icon {
-    background-image: url(images/arrow_white_left.png)!important;
+.black-icon-prev {
+    background-image: url(images/arrow_black_left.png)!important;
+}
+
+.black-icon-next {
+    background-image: url(images/arrow_black_right.png)!important;
 }
 
 .carousel-control-next-icon,
@@ -255,3 +280,27 @@ a.text-light:hover {
     }
 }
 
+.card-video {
+    width: 255px!important;
+    border: none!important;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.text-author {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-title-video {
+
+}
+
+.card-img-overlay {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    height: 154px;
+}
