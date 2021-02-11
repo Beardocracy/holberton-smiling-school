@@ -53,6 +53,10 @@ body, html {
     background-color: var(--color-darkblue);
 }
 
+.font-coiny {
+    font-family: "Coiny";
+}
+
 .text-primary {
     color: var(--color-primary)!important;
 }
@@ -74,6 +78,13 @@ body, html {
     background-size: auto 768px;
 }
 
+.bg-courses {
+    background: url("images/pic_3.jpg"), var(--color-black);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header-hero-bg {
     background: url("images/pic_1.jpg"), var(--color-black);
     background-position: top;
@@ -87,6 +98,9 @@ body, html {
     }
     .bg-pricing {
         background-size: contain;
+    
+    }.bg-courses {
+        background-size: contain;
     }
 }
 
@@ -95,6 +109,10 @@ body, html {
         background-size: cover;
     }
     .bg-pricing {
+        background-size: cover;
+    }
+
+    .bg-courses {
         background-size: cover;
     }
 }
