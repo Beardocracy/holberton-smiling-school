@@ -318,3 +318,47 @@ a.text-light:hover {
 .h3-membership {
     padding-top: 70px;
 }
+
+.footer {
+    height: 249px;
+}
+
+.footer .footnote {
+    opacity: 0.35;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.social-item {
+    color: white;
+    font-size: 30px;
+}
+
+.holberton_school-icon-ic_facebook::before {
+	content: "\e908";
+    color: white;
+    font-size: 30px;
+}
+
+.holberton_school-icon-ic_instagram::before {
+	content: "\e90a";
+    color: white;
+    font-size: 30px;
+}
+
+.holberton_school-icon-ic_twitter::before {
+	content: "\e90f";
+    color: white;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .social-icons {
+        margin-top: 45px;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
