@@ -541,3 +541,7 @@ a:hover {
 	text-decoration: none;
 	background-color: white;
 }
+
+.text-results {
+    color: rgba(7, 22, 41, 0.296247);
+}
