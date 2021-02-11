@@ -9,6 +9,7 @@
     --color-primary: #C271FF;
     --color-black: #071629;
     --color-darkblue: #071629;
+    --color-greencheck: #82D24F;
 }
 
 /* Holberton Fonts */
@@ -392,4 +393,38 @@ a.text-light:hover {
 
 a:hover {
     text-decoration: none;
+}
+
+.text-price {
+    font-weight: 700;
+    font-size: 44px;
+    padding-top: 30px;
+    line-height: 44px;
+}
+
+.text-monthly {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: .5;
+    line-height: 1;
+    margin-top: 0;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.holberton_school-icon-check::before {
+	content: "\e905";
+    font-size: 28px;
+    color: var(--color-greencheck);
+}
+
+.rule-bg-gray {
+    background: #ffffff;
+    opacity: .2;
 }
