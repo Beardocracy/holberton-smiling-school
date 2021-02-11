@@ -418,6 +418,27 @@ a:hover {
     font-size: 18px;
 }
 
+.text-60 {
+    font-size: 60px;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+.text-faq {
+    font-size: 14px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
+.text-weight-300 {
+    font-weight: 300;
+}
+
+.text-weight-700 {
+    font-weight: 700;
+}
+
 .holberton_school-icon-check::before {
 	content: "\e905";
     font-size: 28px;
@@ -427,4 +448,8 @@ a:hover {
 .rule-bg-gray {
     background: #ffffff;
     opacity: .2;
+}
+
+.text-color-darkblue {
+    color: var(--color-darkblue);
 }
