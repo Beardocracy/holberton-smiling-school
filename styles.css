@@ -48,6 +48,10 @@ body, html {
     background-color: var(--color-primary)!important;
 }
 
+.bg-darkblue {
+    background-color: var(--color-darkblue);
+}
+
 .text-primary {
     color: var(--color-primary)!important;
 }
@@ -135,8 +139,8 @@ a.text-light:hover {
 }
 
 .h3-multi-popular {
-    margin-top: 87px;
-    margin-bottom: 75px;
+    padding-top: 87px;
+    padding-bottom: 75px;
 }
 
 .h3-multi .emphasis {
@@ -295,12 +299,22 @@ a.text-light:hover {
     font-weight: 600;
 }
 
-.card-title-video {
-
-}
-
 .card-img-overlay {
     padding-top: 0!important;
     padding-bottom: 0!important;
     height: 154px;
+}
+
+.text-membership {
+    margin-top: 26px;
+    margin-bottom: 13px;
+}
+
+.text-membership-content {
+    max-width: 215px;
+    text-align: center;
+}
+
+.h3-membership {
+    padding-top: 70px;
 }
