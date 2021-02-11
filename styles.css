@@ -471,3 +471,73 @@ a:hover {
 .text-color-darkblue {
     color: var(--color-darkblue);
 }
+
+.bg-search-box {
+    background: rgb(255,255,255,0.25);
+    border-radius: 3px 3px 0px 0px;
+    border-bottom: 1px solid rgb(255,255,255,0.55)!important;
+    height: 50px;
+}
+
+.form-control,
+.form-control:focus {
+    border: none;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.search-text {
+    color: white;
+    font-weight: 300;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.form-control:focus {
+	color: #495057;
+	outline: 0;
+    border-bottom: 2px solid rgb(255,255,255,0.9)!important;
+    background: rgb(255,255,255,0.25);
+	box-shadow: none;
+    border: none;
+}
+
+
+
+.holberton_school-icon-search_2::before {
+	content: "\e913";
+}
+
+.search-icon {
+    border-bottom: 1px solid rgb(255,255,255,0.55)!important;
+    background: rgb(255,255,255,0.25);
+    font-size: 20px;
+    padding-left: 8px;
+    border-radius: 3px 0px 0px 0px;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0 0 0 0;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+	color: var(--color-primary);
+	text-decoration: none;
+	background-color: white;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	color: var(--color-primary);
+	text-decoration: none;
+	background-color: white;
+}
